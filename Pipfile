@@ -1,0 +1,17 @@
+[[source]]
+url = "https://pypi.python.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+discord = "*"
+psycopg2-binary = "*"
+pytz = "*"
+redis="*"
+requests = "*"
+bs4 = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.8"
